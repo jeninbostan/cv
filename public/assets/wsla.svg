@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95" height="58.015" viewBox="0 0 95 58.015">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.664" y1="0.996" x2="0.406" y2="0.002" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3f0a04"/>
+      <stop offset="1" stop-color="#e22f28"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a10f0b"/>
+      <stop offset="1" stop-color="#e12c27"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_67" data-name="Group 67" transform="translate(-1108.497 -5158.85)">
+    <g id="Group_23" data-name="Group 23" transform="translate(1126.497 5158.85)">
+      <path id="Path_102" data-name="Path 102" d="M289.126,381.463c3.748,8.852,3.828,19.408,2.292,30.717h6.731a173,173,0,0,0-1.755-26.629A16.541,16.541,0,0,1,289.126,381.463Z" transform="translate(-280.424 -373.834)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      <path id="Path_103" data-name="Path 103" d="M303.307,380.661a16.345,16.345,0,0,1,0,32.688c-11.645,0-19.218-11.916-15.013-22.45-1.671,6.073-1.046,12.146,3.77,16.677a14.565,14.565,0,0,0,10.651,4.625,14.807,14.807,0,0,0,9.989-25.6c-4.051-4.318-12.2-6.2-17.814-3.558A16.005,16.005,0,0,1,303.307,380.661Z" transform="translate(-285.753 -375.964)" fill="#77121a" fill-rule="evenodd"/>
+      <path id="Path_104" data-name="Path 104" d="M309.09,379.516c.764,6.684-1.126,15.189-4.658,24.823l8.245-10.936a24.141,24.141,0,0,0,8.706-1.517l-18.849,25.456-9.346,0c.475-.9.925-1.814,1.357-2.735a16.442,16.442,0,0,0,6.241-23.423A138.107,138.107,0,0,1,309.09,379.516Z" transform="translate(-269.634 -379.006)" fill="#fa8f00" fill-rule="evenodd"/>
+      <path id="Path_105" data-name="Path 105" d="M288.267,387.839a1.567,1.567,0,1,0-1.521-1.565A1.546,1.546,0,0,0,288.267,387.839Z" transform="translate(-286.746 -365.219)" fill="#77121a" fill-rule="evenodd"/>
+      <path id="Path_106" data-name="Path 106" d="M289.753,417.723c7.236-17.09,14.223-29.225,20.721-37.836a14.965,14.965,0,0,1,7.74,0,144.188,144.188,0,0,0-21.551,37.836Z" transform="translate(-278.758 -379.376)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+      <path id="Path_107" data-name="Path 107" d="M294.9,381.459a16.311,16.311,0,0,1,4.373,4.567q-.68,1.059-1.353,2.139a14.886,14.886,0,0,0-2.848-3.682,12.681,12.681,0,0,0-1.32-1.21Q294.332,382.346,294.9,381.459Z" transform="translate(-268.125 -373.844)" fill="#77121a" fill-rule="evenodd"/>
+    </g>
+    <text id="WSLA_TECHNOLOGY_" data-name="WSLA TECHNOLOGY " transform="translate(1108.497 5214.865)" fill="#505050" font-size="9" font-family="SegoeUI, Segoe UI" letter-spacing="0.07em"><tspan x="0" y="0">WSLA TECHNOLOGY </tspan></text>
+    <text id="Development_by" data-name="Development by" transform="translate(1129.497 5206)" fill="#4e4e4e" font-size="6" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Development by</tspan></text>
+  </g>
+</svg>
