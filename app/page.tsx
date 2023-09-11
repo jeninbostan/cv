@@ -163,7 +163,7 @@ export default function Test() {
                         </div>
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                       <div className="bg-black/30 p-2 rounded-md">
                         <div className="flex items-center gap-4">
                           <div className="w-12 h-12 rounded-md">
@@ -180,7 +180,7 @@ export default function Test() {
                           </a>
                         </div>
                       </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                     <SwiperSlide>
                       <div className="bg-black/30 p-2 rounded-md">
                         <div className="flex items-center gap-4">
@@ -261,7 +261,7 @@ export default function Test() {
                 </div>
               </a>
               <a
-                href="https://github.com/jenin-bostan"
+                href="https://github.com/jeninbostan"
                 target="_blank"
                 rel="noopener noreferrer"
               >
