@@ -5,7 +5,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 export const metadata = {
-  title: 'Osama Husam Jawanh',
+  title: 'Jenin A. Bostan',
   description: '',
 }
 
