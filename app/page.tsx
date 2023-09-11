@@ -157,8 +157,44 @@ export default function Test() {
                               quality={100}
                             />
                           </div>
-                          <a target="_blank" href={""}>
+                          <a target="_blank" href={"https://jeninbostan.github.io/app-mobile/"}>
                             <h6>Website 1</h6>
+                          </a>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="bg-black/30 p-2 rounded-md">
+                        <div className="flex items-center gap-4">
+                          <div className="w-12 h-12 rounded-md">
+                            <Image
+                              src={"/assets/world-wide-web_841364.png"}
+                              width={50}
+                              alt=""
+                              height={0}
+                              quality={100}
+                            />
+                          </div>
+                          <a target="_blank" href={"https://jeninbostan.github.io/web_44/"}>
+                            <h6>Website 2</h6>
+                          </a>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="bg-black/30 p-2 rounded-md">
+                        <div className="flex items-center gap-4">
+                          <div className="w-12 h-12 rounded-md">
+                            <Image
+                              src={"/assets/world-wide-web_841364.png"}
+                              width={50}
+                              alt=""
+                              height={0}
+                              quality={100}
+                            />
+                          </div>
+                          <a target="_blank" href={"https://jeninbostan.github.io/farma/"}>
+                            <h6>Website 3</h6>
                           </a>
                         </div>
                       </div>
@@ -169,24 +205,7 @@ export default function Test() {
             </div>
           </section>
         </AnimationDownToUp>
-        {/* <div className="relative mt-4">
-          <div className="absolute right-14 -top-4">
-            <Image
-              src={"/assets/asset 16 2.svg"}
-              width={90}
-              height={0}
-              alt=""
-            />
-          </div>
-          <div className="absolute left-14 -top-4">
-            <Image
-              src={"/assets/asset 16 2.svg"}
-              width={90}
-              height={0}
-              alt=""
-            />
-          </div>
-        </div> */}
+
         <AnimationDownToUp>
           {" "}
           <section className="mt-4  relative z-50">
