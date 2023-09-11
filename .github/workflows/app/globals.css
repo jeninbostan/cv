@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --token-1ed6d5d5-e471-4369-8639-00688ededc9f: rgb(124, 127, 130);
+  --token-02a6872c-fbac-4181-a8b8-1dcaa68ff80d: rgb(255, 255, 255);
+  --token-62be83f1-0097-4872-b224-94c7b2aa11d6: rgb(28, 28, 28);
+  --token-5b9801ec-2b2c-45f7-a548-e4428099a1ac: rgb(43, 43, 43);
+  --token-b7046cab-a803-4f27-934d-bf5b26201782: rgb(40, 40, 40);
+  --token-b0731588-6d12-493c-8302-62f9f032c7c8: rgb(61, 61, 61);
+  --bg-main: rgb(22, 22, 22);
+}
+body {
+  background-color: var(--bg-main);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 80px;
+
+  overflow-x: hidden;
+}
+.typed {
+  display: flex;
+  overflow: hidden;
+}
+.bg-color {
+  height: 75vh;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.bg-sq {
+  background: linear-gradient(0deg, var(--bg-main, #fdfdfc) 0%, rgba(22, 22, 22, 0) 100%);
+
+  inset: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+}
+
+.content {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+
+  background-color: transparent;
+  background-image: linear-gradient(
+      var(--token-62be83f1-0097-4872-b224-94c7b2aa11d6, rgb(245, 245, 245)) 2px,
+      transparent 2px
+    ),
+    linear-gradient(90deg, var(--token-62be83f1-0097-4872-b224-94c7b2aa11d6, rgb(245, 245, 245)) 2px, transparent 2px),
+    linear-gradient(var(--token-62be83f1-0097-4872-b224-94c7b2aa11d6, rgb(245, 245, 245)) 1px, transparent 1px),
+    linear-gradient(
+      90deg,
+      var(--token-62be83f1-0097-4872-b224-94c7b2aa11d6, rgb(245, 245, 245)) 1px,
+      var(--bg-main, rgb(253, 253, 252)) 1px
+    );
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+}
+
+.shadow-slider {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 10%,
+    rgb(0, 0, 0) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  overflow: hidden;
+}
